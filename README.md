@@ -45,7 +45,7 @@ python image_watermark_tool.py photo --font-size 30 --font-color red --position 
 LLM_work1/
 ├── image_watermark_tool.py  # 主程序
 ├── photo/                  # 示例图片目录
-├── photo_watermark/        # 生成的水印图片目录
+│   └── photo_watermark/        # 生成的水印图片目录
 ├── PRD.md                  # 产品需求文档
 └── README.md               # 项目说明文件
 ```
