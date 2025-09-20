@@ -40,7 +40,7 @@ def process_images(input_path, font_size, font_color, position):
         print(f"Error: Path '{input_path}' is not a directory.")
         return
 
-    output_dir = f"{input_path}_watermark"
+    output_dir = f"{input_path}/{input_path}_watermark"
     os.makedirs(output_dir, exist_ok=True)
 
     for filename in os.listdir(input_path):
